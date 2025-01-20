@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid " >
+          <!-- Navigation -->
+            <!-- Navigation -->
+            <div class="row bg-info py-2">
+              <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container">
+                  <a class="navbar-brand text-black" href="#">My Portfolio</a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link text-white rounded" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white rounded" href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white rounded" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          
+<!-- main contannt section  -->
+<section class="main">
+  <section id="about" class="text-center py-3 text-white">
+    <h2>About Me</h2>
+  </section>
+  <div class="row">
+    <div class="overview col-lg-4 text-center py-5 bg-dark text-white ">
+      <h1 class="heding">I'm Arpit Yadav</h1>
+      <br>
+      <h5>React Js Developer</h5>
+      <br>
+      <p>Front-End Web Developer dedicated to creating engaging and user-friendly web interfaces. With expertise in HTML, CSS, JavaScript, and modern frameworks like React.js, I craft seamless digital experiences that combine functionality with aesthetics.</p>
+      <!-- <p>Front-End Web Developer dedicated to creating engaging and user-friendly web interfaces. With expertise in HTML, CSS, JavaScript, and modern frameworks like React.js, I craft seamless digital experiences that combine functionality with aesthetics.</p>   -->
+      <input type="button" value="My Work" class="bt1 rounded p-2  mt-3">
+      <input
+        id="downloadResumeBtn"
+        type="button"
+        value="Download Resume"
+        class="bt2 rounded bg-info text-black p-2"
+      >
+    </div>
+    <div class="photo col-lg-8 d-flex justify-content-end bg-dark">
+      <img src="/image/arpit1.jpg" height="100px" width="100%" class="img-fluid" alt="Arpit">
+    </div>
+  </div>
+</section>
+<section id="projects" class="py-4 bg-info" >
+  <h2 class="text-center">My Projects</h2>
+  <div class="row g-4 mt-3" id="projects-list">
+    <!-- Projects will be added dynamically here -->
+  </div>
+</section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="py-4">
+      <h2 class="text-center">Contact Me</h2>
+      <form id="contact-form" class="mt-4">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </section>
+ <section class="Footer">
+          <!-- Footer -->
+           <div>
+          <footer class=" row bg-dark text-white text-center py-3">
+            <p>© 2025 Your Name. All Rights Reserved.</p>
+          </footer>
+          </div>
+        </section>
+        
+        
+          
+          
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/bootstrap.bundle.js"></script>
+    <script src="/javascript/jquery.js"></script>
+</body>
+</html>

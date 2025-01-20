@@ -1,0 +1,29 @@
+*{margin: 0px; padding: 0px;box-sizing: border-box;}
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  .nav-link {
+    color: black; /* Default text color */
+    text-decoration: none; /* Removes underline */
+  }
+  .nav-link:hover {
+    background-color: rgb(0, 0, 13); /* Optional: Adds underline on hover */
+  }
+  .navbar-brand{
+    font-weight: 800;
+  
+  }
+  .bt1{
+    background-color: brown;
+  }
+  
+  #about{
+    background-color:blue;
+  }
+
+  
+
+
+  
